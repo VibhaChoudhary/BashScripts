@@ -1,10 +1,10 @@
 #!/bin/bash
 # open db properties file
-file="/home/2018/summer/nyu/6513/vc1436/P1/db.properties"
+file="/home/db.properties"
 . $file
 
 # define directory containing TSV files
-tsv_directory="/home/2018/summer/nyu/6513/vc1436/P1/test_run/input/"
+tsv_directory="/home/input/"
 
 # go into directory
 cd $tsv_directory
